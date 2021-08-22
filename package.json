@@ -1,0 +1,33 @@
+{
+  "name": "discord.js-command-handler",
+  "version": "0.0.1",
+  "description": "A prebuilt command handler for discord.js!",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTrueGravity/discord.js-command-handler.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "javascript"
+  ],
+  "author": "TheTrueGravity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheTrueGravity/discord.js-command-handler/issues"
+  },
+  "homepage": "https://github.com/TheTrueGravity/discord.js-command-handler#readme",
+  "dependencies": {
+    "@types/node": "^16.4.12",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  }
+}
